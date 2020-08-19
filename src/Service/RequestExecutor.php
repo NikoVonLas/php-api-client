@@ -94,7 +94,7 @@ class RequestExecutor
              sprintf(
         'freshmail/php-api-client:%s;guzzle:%s;php:%s;interface:%s',
         FreshMailApiClient::VERSION,
-        ClientInterface::VERSION,
+        ClientInterface::MAJOR_VERSION,
         PHP_VERSION,
         php_sapi_name());
     }
